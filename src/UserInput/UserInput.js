@@ -10,9 +10,12 @@ const userInput = (props) => {
     };
 
     return (
-        <div style={style}>
-            <input onChange={props.change} type="text" value={props.userName} />
-        </div>
+
+        <input
+            style={style}
+            onChange={props.change}
+            type="text"
+            value={props.userName} />
     );
 
 }
